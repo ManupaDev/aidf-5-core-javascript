@@ -1,62 +1,23 @@
 /*
-console.log("Hello Learners!");
+let r = 4
+const pi = 3.14
 
-const marks = 89;
-
-if (marks >= 90) {
-  console.log("A");
-} else if (marks >= 80) {
-  console.log("B");
-} else if (marks >= 70) {
-  console.log("C");
-} else if (marks >= 60) {
-  console.log("D");
-} else {
-  console.log("F");
-}
+const circumference = 2 * pi * r
+console.log(circumference)
 */
 
-// for (let i = 1; i <= 10; i=i+1) {
-//   console.log(i);
+const a = 2 + 2 + 2 + 2; //2 * 4
+// 
+let total = 0;
+// for (let i = 0; i < 4; i = i + 1) {
+//   total = total + 2;
 // }
+// console.log(total);
 
-// let i = 1;
-// while (i <= 10) {
-//   console.log(i);
-//   i = i + 1;
-// }
+let i = 0;
+while (i < 10) {
+  total = total + 2;
+  i = i + 1;
+}
+console.log(total);
 
-// const add = (a, b) => {
-//   const sum = a + b;
-//   return sum;
-// };
-
-// const sum = add(1, 2);
-// console.log(sum);
-
-// let x = 10;
-
-// const greet = () => {
-//   let x = 20;
-//   console.log("Inside the function", x);
-// };
-
-// greet();
-// console.log("Outside the function", x);
-
-// const userName = "Manupa";
-// const userAge = 25;
-// const userCity = "Kadawatha";
-
-// const user = {
-//   name: "Manupa",
-//   age: 25,
-//   city: "Kadawatha",
-// };
-
-// console.log(user);
-
-// user.age = 26;
-// console.log(user);
-
-const nums = [2, 4, 6, 8, 10];
